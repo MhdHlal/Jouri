@@ -1,4 +1,3 @@
-```markdown
 # Spring Boot Microservices Architecture System
 
 A distributed, cloud-native microservices system built using Spring Boot and Spring Cloud, demonstrating enterprise-grade distributed system design principles including service discovery, API gateway routing, synchronous and asynchronous communication, resilience patterns, and full observability stack integration.
@@ -64,10 +63,7 @@ The architecture is designed to simulate a real-world production distributed sys
 ---
 
 ## High-Level Architecture
-
-```
-
-```
+`
                      ┌──────────────────────┐
                      │      Client          │
                      └─────────┬────────────┘
@@ -87,8 +83,6 @@ The architecture is designed to simulate a real-world production distributed sys
     ┌──────────────────────────┼──────────────────────────┐
     │                          │                          │
     ▼                          ▼                          ▼
-```
-
 ┌────────────────┐     ┌────────────────┐      ┌────────────────┐
 │ Product-service │     │  Order-service │      │   pay-service   │
 │ (MongoDB + CRUD)│     │ (Circuit Breaker│     │ (LB Instance A) │
@@ -101,15 +95,13 @@ The architecture is designed to simulate a real-world production distributed sys
 │ (Instance B)    │
 └────────────────┘
 
-```
+`
                                ▼
                     ┌──────────────────────┐
                     │ Notification-service │
                     │ (RabbitMQ Consumer)  │
                     └──────────────────────┘
-```
 
-```
 
 ---
 
@@ -250,4 +242,3 @@ This project demonstrates practical implementation of distributed systems concep
 ## License
 
 Educational / Academic Project
-```
