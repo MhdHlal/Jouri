@@ -1,0 +1,48 @@
+
+########################
+# IDE
+########################
+.idea/
+*.iml
+.vscode/
+
+########################
+# BUILD OUTPUTS (ALL MICROSERVICES)
+########################
+**/target/
+**/build/
+out/
+
+########################
+# MAVEN WRAPPER (KEEP SAFE)
+########################
+!.mvn/wrapper/maven-wrapper.jar
+!.mvn/wrapper/maven-wrapper.properties
+
+########################
+# LOGS
+########################
+*.log
+
+########################
+# ENV / SECRETS (CRITICAL FOR YOUR CASE)
+########################
+.env
+.env.*
+application-local.properties
+application-dev.properties
+**/application-secret*.properties
+**/application-secrets.yml
+*.properties
+application.properties
+
+########################
+# OS FILES
+########################
+.DS_Store
+Thumbs.db
+
+########################
+# DOCKER LOCAL OVERRIDES
+########################
+docker-compose.override.yml
