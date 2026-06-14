@@ -4,7 +4,7 @@ A distributed, cloud-native microservices system built using Spring Boot and Spr
 
 ---
 
-System Overview
+# System Overview
 
 This system is composed of multiple independently deployable microservices that collectively implement a complete distributed business workflow.
 
@@ -18,7 +18,7 @@ The architecture simulates a real-world production-grade system with:
 
 ---
 
-Architectural Style
+# Architectural Style
 
 * Microservices Architecture
 * Domain-driven design (DDD-inspired decomposition)
@@ -31,7 +31,7 @@ Architectural Style
 
 ---
 
-Technology Stack
+# Technology Stack
 
 Backend:
 
@@ -67,7 +67,7 @@ Infrastructure:
 
 ---
 
-System Architecture
+# System Architecture
 
 Client → API Gateway → Eureka Service Discovery → Microservices
 
@@ -78,9 +78,9 @@ Notification-service (RabbitMQ consumer)
 
 ---
 
-Microservices Breakdown
+# Microservices Breakdown
 
-Product-service:
+# Product-service:
 
 * Stateful service
 * MongoDB Atlas integration
@@ -90,7 +90,7 @@ Product-service:
 
 ---
 
-Order-service:
+# Order-service:
 
 * Stateful service
 * MongoDB Atlas integration
@@ -100,7 +100,7 @@ Order-service:
 
 ---
 
-Pay-service:
+# Pay-service:
 
 * Stateful service
 * MongoDB Atlas integration
@@ -110,7 +110,7 @@ Pay-service:
 
 ---
 
-Notification-service:
+# Notification-service:
 
 * Stateless service
 * RabbitMQ consumer
@@ -119,7 +119,7 @@ Notification-service:
 
 ---
 
-Gateway-service:
+# Gateway-service:
 
 * API Gateway (single entry point)
 * Request routing layer
@@ -127,7 +127,7 @@ Gateway-service:
 
 ---
 
-Eureka Server (Multi-Zone):
+# Eureka Server (Multi-Zone):
 
 * Service registry
 * Multi-zone discovery
@@ -135,7 +135,7 @@ Eureka Server (Multi-Zone):
 
 ---
 
-Communication Patterns
+# Communication Patterns
 
 Synchronous:
 
@@ -148,7 +148,7 @@ Asynchronous:
 
 ---
 
-Resilience
+# Resilience
 
 * Circuit Breaker pattern
 * Fallback methods
@@ -156,7 +156,7 @@ Resilience
 
 ---
 
-Observability
+# Observability
 
 * ELK centralized logging
 * Zipkin distributed tracing
@@ -164,7 +164,7 @@ Observability
 
 ---
 
-Load Balancing Strategy
+# Load Balancing Strategy
 
 * Eureka-based discovery
 * Multiple Pay-service instances
@@ -172,7 +172,7 @@ Load Balancing Strategy
 
 ---
 
-Deployment Model
+# Deployment Model
 
 * Docker-based deployment
 * Two availability zones:
@@ -182,7 +182,7 @@ Deployment Model
 
 ---
 
-Design Principles
+# Design Principles
 
 * Loose coupling
 * High cohesion per service
@@ -192,13 +192,13 @@ Design Principles
 
 ---
 
-Project Purpose
+# Project Purpose
 
 Academic demonstration of distributed systems architecture using Spring Cloud ecosystem, focusing on scalability, resilience, observability, and real-world microservices communication patterns.
 
 ---
 
-Future Enhancements
+# Future Enhancements
 
 * Kubernetes orchestration
 * Spring Cloud Config Server
@@ -209,9 +209,7 @@ Future Enhancements
 
 ---
 
-Architecture Diagram (Whimsical)
-
-[Insert Whimsical Diagram Link Here]
+# Architecture Diagram (Whimsical)
 
 Client → API Gateway → Eureka → Microservices Cluster
 
@@ -222,6 +220,6 @@ Notification Service ← RabbitMQ Events
 
 ---
 
-License
+# License
 
 Educational / Academic Project
