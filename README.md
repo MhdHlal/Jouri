@@ -63,7 +63,7 @@ The architecture is designed to simulate a real-world production distributed sys
 ---
 
 ## High-Level Architecture
-`
+
                      ┌──────────────────────┐
                      │      Client          │
                      └─────────┬────────────┘
@@ -95,7 +95,7 @@ The architecture is designed to simulate a real-world production distributed sys
 │ (Instance B)    │
 └────────────────┘
 
-`
+
                                ▼
                     ┌──────────────────────┐
                     │ Notification-service │
