@@ -209,7 +209,7 @@ Academic demonstration of distributed systems architecture using Spring Cloud ec
 
 ---
 
-# Architecture Diagram (Whimsical)
+# Architecture Diagram
 
 Client → API Gateway → Eureka → Microservices Cluster
 
